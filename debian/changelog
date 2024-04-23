@@ -1,5 +1,196 @@
-template-repository (1.0-1) unstable; urgency=medium
+mkdocstrings-python-handlers (1.9.2-1) unstable; urgency=medium
 
-  * Initial release
+  * [87691d7] New upstream version 1.9.2
+  * [0aca24d] d/control: Bump version B-D on mkdocstrings
+  * [2317e68] d/copyright: Update year data
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Sat, 06 Apr 2024 08:31:04 +0200
+
+mkdocstrings-python-handlers (1.9.0-1) unstable; urgency=medium
+
+  * [90b7f71] New upstream version 1.9.0
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Sat, 16 Mar 2024 15:54:19 +0100
+
+mkdocstrings-python-handlers (1.8.0-1) unstable; urgency=medium
+
+  * [fd301ff] New upstream version 1.8.0
+    (Closes: 1058340)
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Tue, 23 Jan 2024 20:18:31 +0100
+
+mkdocstrings-python-handlers (1.7.5-1) unstable; urgency=medium
+
+  * [c9ab8f2] New upstream version 1.7.5
+  * [05db7c4] d/control: Adjust version B-D on python3-griffe
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Thu, 23 Nov 2023 12:34:40 +0000
+
+mkdocstrings-python-handlers (1.7.3-1) unstable; urgency=medium
+
+  * [191913a] New upstream version 1.7.3
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Sun, 29 Oct 2023 09:15:47 +0100
+
+mkdocstrings-python-handlers (1.7.1-1) unstable; urgency=medium
+
+  * [ad321d1] New upstream version 1.7.1
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Wed, 04 Oct 2023 16:20:52 +0200
+
+mkdocstrings-python-handlers (1.6.3-1) unstable; urgency=medium
+
+  * [6dc40cd] New upstream version 1.6.3
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Thu, 14 Sep 2023 16:42:33 +0530
+
+mkdocstrings-python-handlers (1.6.2-1) unstable; urgency=medium
+
+  * [72105a5] New upstream version 1.6.2
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Wed, 06 Sep 2023 11:57:10 +0530
+
+mkdocstrings-python-handlers (1.6.0-1) unstable; urgency=medium
+
+  * [898d5bf] New upstream version 1.6.0
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Tue, 29 Aug 2023 19:15:01 +0530
+
+mkdocstrings-python-handlers (1.5.2-1) unstable; urgency=medium
+
+  * [4d19d36] d/watch: Enforce usage of *.tar.gz tarball
+  * [a81b1e7] New upstream version 1.5.2
+  * [539cc13] d/control: Adjust version B-D on python3-griffe
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Sun, 27 Aug 2023 22:27:14 +0530
+
+mkdocstrings-python-handlers (1.5.0-1) unstable; urgency=medium
+
+  * [b6c25b8] New upstream version 1.5.0
+  * [07925c8] d/rules: Add target override_dh_clean
+    (Closes: #1048332)
+  * [f955dc0] d/control: Bump version B-D on python3-griffe
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Mon, 21 Aug 2023 07:18:04 +0200
+
+mkdocstrings-python-handlers (1.3.0-1) unstable; urgency=medium
+
+  * [87f7523] New upstream version 1.3.0
+  * [836e9fe] d/control: Adjust version B-D on python3-griffe
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Sat, 12 Aug 2023 07:14:01 +0200
+
+mkdocstrings-python-handlers (1.2.1-1) unstable; urgency=medium
+
+  * [7ed114c] New upstream version 1.2.1
+  * [99a1306] Drop patch queue
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Sat, 29 Jul 2023 09:59:08 +0200
+
+mkdocstrings-python-handlers (1.1.2-2) unstable; urgency=medium
+
+  * [61f0bc5] d/rules: Use correct variable PDM_BUILD_SCM_VERSION
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Fri, 16 Jun 2023 17:11:32 +0200
+
+mkdocstrings-python-handlers (1.1.2-1) unstable; urgency=medium
+
+  * [ad989cd] New upstream version 1.1.2
+  * [6383a71] Adding a patch from patch queue branch
+    Added patch:
+    Reprodcibility-Sort-objects-before-interate-over.patch
+    (Closes: #1037216)
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Tue, 13 Jun 2023 22:21:10 +0200
+
+mkdocstrings-python-handlers (1.1.0-1) experimental; urgency=medium
+
+  * [fce547c] New upstream version 1.1.0
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Fri, 02 Jun 2023 10:12:29 +0200
+
+mkdocstrings-python-handlers (1.0.0-1) experimental; urgency=medium
+
+  * [bf978f3] New upstream version 1.0.0
+  * [7403cf7] d/control: Switch python3-pdm-pep517 to -backend
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Wed, 24 May 2023 09:22:15 +0200
+
+mkdocstrings-python-handlers (0.9.0-1) experimental; urgency=medium
+
+  * [59d1558] New upstream version 0.9.0
+  * [1352c31] d/copyright: Update year data
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Thu, 27 Apr 2023 21:00:41 +0200
+
+mkdocstrings-python-handlers (0.8.3-1) unstable; urgency=medium
+
+  * [afde1de] New upstream version 0.8.3
+  * [63db3f0] d/control: Bump Standards-Version to 4.6.2
+    No further changes needed.
+  * [6ae2a7c] d/control: Add BuildProfileSpecs, remove not needed B-D
+    (Closes: #1027621)
+  * [a288447] d/rules: Drop --with option from default target
+  * [d3498a0] autopkgtest: Remove not needed packages
+    The removed packages must pulled in by the dependency chain, if not then
+    something is wrong.
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Thu, 05 Jan 2023 22:47:41 +0100
+
+mkdocstrings-python-handlers (0.8.2-1) unstable; urgency=medium
+
+  * [08e8cc9] New upstream version 0.8.2
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Sun, 27 Nov 2022 09:51:33 +0100
+
+mkdocstrings-python-handlers (0.8.0-1) unstable; urgency=medium
+
+  * [835f261] New upstream version 0.8.0
+  * [443844d] d/control: Increase B-D version for python3-griffe
+  * [a117b1b] d/rules: Remove unneeded licenses folder after install
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Tue, 15 Nov 2022 10:48:04 +0100
+
+mkdocstrings-python-handlers (0.7.1-3) unstable; urgency=medium
+
+  * Team upload.
+  * [11e30b0] Drop patch of switching from pdm-pep517 to poetry.
+
+ -- Boyuan Yang <byang@debian.org>  Thu, 18 Aug 2022 14:01:17 -0400
+
+mkdocstrings-python-handlers (0.7.1-2) unstable; urgency=medium
+
+  * [cb936a4] d/{t,}/control: Add versioned dep on pygments
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Sat, 02 Jul 2022 12:44:09 +0200
+
+mkdocstrings-python-handlers (0.7.1-1) unstable; urgency=medium
+
+  * [954ef7e] New upstream version 0.7.1
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Wed, 15 Jun 2022 23:04:32 +0200
+
+mkdocstrings-python-handlers (0.7.0-2) unstable; urgency=medium
+
+  * [d6a5c74] d/control: Conflicts on mkdocstrings-python-legacy
+  * [51b30d3] d/rules: Remove PYBUILD_AFTER_INSTALL variable
+  * [b2f82fb] d/control: Add more B-D packages
+  * [f2ba0c3] d/rules: Turn on the internal testing
+  * [8bfe9d4] autopkgtest: Adding first working setup
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Thu, 02 Jun 2022 21:40:34 +0200
+
+mkdocstrings-python-handlers (0.7.0-1) unstable; urgency=medium
+
+  * [0629102] New upstream version 0.7.0
+  * [cc4f950] Rebuild patch queue from patch-queue branch
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Mon, 30 May 2022 00:47:45 +0200
+
+mkdocstrings-python-handlers (0.6.6-1) unstable; urgency=medium
+
+  * [8bc97d3] New upstream version 0.6.6
+  * [0257e29] First and basic Debianization
+    (Closes: #1011194)
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Wed, 18 May 2022 06:09:39 +0200

@@ -1,4 +1,21 @@
 #!/usr/bin/make -f
+# -*- makefile -*-
+
+#export DH_VERBOSE = 1
+
+include /usr/share/dpkg/pkg-info.mk
+
+export PYBUILD_NAME=mkdocstrings_handlers
+export PYBUILD_SYSTEM=pyproject
+export PYBUILD_BEFORE_TEST=cp -r {dir}/docs {dir}/mkdocs.yml {build_dir}
+export PYBUILD_AFTER_TEST=rm -rf {build_dir}/docs {build_dir}/mkdocs.yml
+export PYBUILD_AFTER_INSTALL=rm -rf {destdir}/usr/lib/python*/dist-packages/mkdocstrings*.dist-info/licenses
+export PDM_BUILD_SCM_VERSION = $(DEB_VERSION_UPSTREAM)
+
 
 %:
-	dh $@
+	dh $@ --buildsystem=pybuild
+
+override_dh_clean:
+	dh_clean
+	rm -rf .pdm-build
